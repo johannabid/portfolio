@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "RacingSansOne-Regular" ;
+    src: url("/fonts/RacingSansOne-Regular.ttf") format("truetype");
+}
+
+
+header {
+    margin: 150px 0px;
+    text-align: center;
+}
+
+footer {
+    margin: 113px;
+}
+
+h2 {
+    font-family: "RacingSansOne-Regular";
+    margin-left: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h3, 
+a, 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 1.17em;
+}
+
+section {
+    background-color: #F9F9F9;
+    padding: 40px;
+}
+
+.portfolio_content,
+.links,
+.contact {
+    display: flex;
+}
+
+.portfolio_content {
+    justify-content: space-around;
+}
+
+.links,
+.contact {
+    justify-content: center;
+}
+
+div a {
+    margin:30px;
+}
+
+.content_photo, h3 {
+    margin: 25px;
+}
+
+.content_photo > img {
+    width: 100%;
+    border: 1.5px solid #0000FF;
+}
+
+a:hover {
+    text-shadow: 0 0 0.5px #000;
+}
+
+.contact_text {
+    margin: 0px;
+}
+
+p {
+    margin: 7px;
+}
+
+@media (max-width:900px) {
+   header img {
+    width: 70%;
+   }
+
+   header {
+    margin:50px;
+   }
+
+   h2 {
+    text-align: center;
+    margin: 10px;
+   }
+
+   .portfolio_content {
+    flex-direction: column;
+   }
+   
+}
